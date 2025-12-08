@@ -5,7 +5,7 @@ import { Summary } from "./components/Summary";
 import { ExperienceSection } from "./components/ExperienceSection";
 import { EducationSection } from "./components/EducationSection";
 import { SkillsSection } from "./components/SkillsSection";
-
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -29,6 +29,7 @@ function App() {
         <div className="grid gap-4 md:grid-cols-2">
           <SkillsSection title="Habilidades clave" items={cvData.skills} />
           <SkillsSection title="Competencias técnicas" items={cvData.techSkills} />
+        <Analytics />
         </div>
       </div>
     </main>
