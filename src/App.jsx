@@ -18,6 +18,7 @@ function App() {
           email={cvData.email}
           linkedin={cvData.linkedin}
           github={cvData.github}
+          data={cvData}
         />
 
         <Summary text={cvData.summary} />

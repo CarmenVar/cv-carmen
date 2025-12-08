@@ -7,6 +7,7 @@ export const cvData = {
   email: "trishiavargas@gmail.com",
   linkedin: "https://www.linkedin.com/in/carmen-vargas-rodriguez",
   github: "https://github.com/CarmenVar",
+  photoUrl: "/public/carmen cv web.jpg",
   summary: `Profesional con sólida experiencia en retail y hotelería, especializada en liderazgo de equipos, 
 gestión de operaciones y atención al cliente. Reconocida por mi capacidad para resolver conflictos, 
 comunicación efectiva y enfoque en la mejora continua de la experiencia de compra. 
