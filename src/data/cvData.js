@@ -20,7 +20,7 @@ export const cvData = {
       switchToSpanish: "Cambiar a Español",
       lightMode: "Modo Claro",
       darkMode: "Modo Oscuro",
-      footerNote: "Diseñado para entornos corporativos y soporte de alta calidad.",
+      
     },
     header: {
       name: "Carmen Vargas",
@@ -167,7 +167,7 @@ export const cvData = {
       switchToSpanish: "Cambiar a Español",
       lightMode: "Light Mode",
       darkMode: "Dark Mode",
-      footerNote: "Designed for corporate environments and high-quality IT support.",
+      
     },
     header: {
       name: "Carmen Vargas",
