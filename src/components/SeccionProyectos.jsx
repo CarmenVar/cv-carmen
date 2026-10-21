@@ -75,11 +75,11 @@ export function SeccionProyectos() {
         {proyectosFiltrados.map(proyecto => (
           <ProyectoCard
             key={proyecto.id}
-            titulo={proyecto.titulo}          {/* Prop */}
-            descripcion={proyecto.descripcion}  {/* Prop */}
-            tecnologia={proyecto.tecnologia}   {/* Prop */}
-            categoria={proyecto.categoria}    {/* Prop */}
-            enlace={proyecto.enlace}          {/* Prop */}
+            titulo={proyecto.titulo}          
+            descripcion={proyecto.descripcion}  
+            tecnologia={proyecto.tecnologia}   
+            categoria={proyecto.categoria}    
+            enlace={proyecto.enlace}         
           />
         ))}
       </div>
