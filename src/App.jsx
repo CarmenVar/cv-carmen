@@ -8,6 +8,7 @@ import { EducationSection } from './components/EducationSection';
 import { SkillsSection } from './components/SkillsSection';
 import { AdditionalInfoSection } from './components/AdditionalInfoSection';
 import { Footer } from './components/Footer';
+import { SeccionProyectos } from './components/SeccionProyectos';
 
 function App() {
   // Language state: 'es' (default) or 'en'
@@ -100,7 +101,9 @@ function App() {
             labels={current.labels}
             data={current.additionalInfo}
           />
-
+     
+        <SeccionProyectos />
+      
           <Footer
             labels={current.labels}
             name={current.header.name}
