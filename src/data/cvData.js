@@ -367,7 +367,7 @@ export const cvData = {
           descripcion: "Practical training in data modeling, interactive dashboard design, and key performance metrics using DAX.",
           categoria: "Power BI",
           tecnologia: "Power BI / DAX",
-          enlace: "#"
+          enlace: "https://productosfinalpython-nt94atk3q-carmen-vargas-projects.vercel.app"
         }
       ]
     }
