@@ -181,7 +181,7 @@ export const cvData = {
           descripcion: "Capacitación práctica en modelado de datos, creación de tableros de control interactivos y métricas clave en DAX.",
           categoria: "Power BI",
           tecnologia: "Power BI / DAX",
-          enlace: "#"
+          enlace: "https://productosfinalpython-nt94atk3q-carmen-vargas-projects.vercel.app"
         }
       ]
     }
