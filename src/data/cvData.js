@@ -24,7 +24,7 @@ export const cvData = {
     },
     header: {
       name: "Carmen Vargas",
-      title: "IT Support / Application Support Analyst | Sistemas Corporativos | Operaciones y Soporte a Usuarios",
+      title: "Soporte TI / Analista de Soporte de Aplicaciones| Sistemas Corporativos | Operaciones y Soporte a Usuarios",
       location: "Nuñez, CABA, Argentina",
       email: "trishiavargas@gmail.com",
       linkedin: "https://www.linkedin.com/in/carmen-vargas-rodriguez",
@@ -105,12 +105,12 @@ export const cvData = {
       },
     ],
     techSkills: [
-      "IT Support / Application Support",
-      "Corporate User Support",
-      "ERP / Management Systems",
-      "Incident Management",
-      "Process Documentation",
-      "Intermediate Excel",
+      "Soporte TI / Soporte de Aplicaciones",
+      "Soporte a Usuarios Corporativos",
+      "ERP / Sistemas de Gestión",
+      "Gestión de Incidentes",
+      "Documentación de Procesos",
+      "Excel Intermedio",
       "Google Workspace",
     ],
     keySkills: [
@@ -146,6 +146,45 @@ export const cvData = {
         },
       ],
     },
+    projectsSection: {
+      title: "Proyectos & Certificaciones",
+      subtitle: "Proyectos reales y credenciales técnicas verificables",
+      categories: ["Todos", "React", "Python", "Salesforce", "Power BI"],
+      projects: [
+        {
+          id: 1,
+          titulo: "Portafolio Web Interactivo & Bilingüe",
+          descripcion: "Aplicación web modular en React y Tailwind CSS con cambio dinámico de idioma, modo oscuro y arquitectura de datos centralizada.",
+          categoria: "React",
+          tecnologia: "React / Tailwind / Vercel",
+          enlace: "https://cv-carmen.vercel.app"
+        },
+        {
+          id: 2,
+          titulo: "Herramienta de Transferencia & Descarga Masiva",
+          descripcion: "Script de automatización en Python enfocado en la gestión y descarga masiva de archivos multimedia para optimizar procesos.",
+          categoria: "Python",
+          tecnologia: "Python / Scripting",
+          enlace: "https://github.com/CarmenVar/appTransferPhotos"
+        },
+        {
+          id: 3,
+          titulo: "Certificación & Formación Salesforce Admin",
+          descripcion: "Rango Mountaineer en Trailhead. Dominio en administración de CRM, modelos de datos, seguridad de registros y automatizaciones.",
+          categoria: "Salesforce",
+          tecnologia: "Salesforce Admin",
+          enlace: "https://openbadgefactory.com/obv3/credentials/a72d6f053e899abeee9f2024c9dbee8f84e8bebe" // Pegas tu enlace aquí
+        },
+        {
+          id: 4,
+          titulo: "Microcredencial en Power BI (Talento Tech)",
+          descripcion: "Capacitación práctica en modelado de datos, creación de tableros de control interactivos y métricas clave en DAX.",
+          categoria: "Power BI",
+          tecnologia: "Power BI / DAX",
+          enlace: "https://productosfinalpython-nt94atk3q-carmen-vargas-projects.vercel.app"
+        }
+      ]
+    }
   },
 
   en: {
@@ -293,5 +332,44 @@ export const cvData = {
         },
       ],
     },
+    projectsSection: {
+      title: "Projects & Certifications",
+      subtitle: "Real projects and verifiable technical credentials",
+      categories: ["All", "React", "Python", "Salesforce", "Power BI"],
+      projects: [
+        {
+          id: 1,
+          titulo: "Interactive & Bilingual Web Portfolio",
+          descripcion: "Modular React and Tailwind CSS web application featuring dynamic language switching, dark mode, and centralized data architecture.",
+          categoria: "React",
+          tecnologia: "React / Tailwind / Vercel",
+          enlace: "https://cv-carmen.vercel.app"
+        },
+        {
+          id: 2,
+          titulo: "Bulk Photo Transfer & Download Tool",
+          descripcion: "Python automation script designed for managing and bulk downloading media files to optimize operational workflows.",
+          categoria: "Python",
+          tecnologia: "Python / Scripting",
+          enlace: "https://github.com/CarmenVar/appTransferPhotos"
+        },
+        {
+          id: 3,
+          titulo: "Salesforce Admin Certification & Training",
+          descripcion: "Mountaineer rank on Trailhead. Proficiency in CRM administration, data modeling, record-level security, and process automation.",
+          categoria: "Salesforce",
+          tecnologia: "Salesforce Admin",
+          enlace: "https://openbadgefactory.com/obv3/credentials/a72d6f053e899abeee9f2024c9dbee8f84e8bebe" // Pegas tu enlace aquí
+        },
+        {
+          id: 4,
+          titulo: "Power BI Microcredential (Talento Tech)",
+          descripcion: "Practical training in data modeling, interactive dashboard design, and key performance metrics using DAX.",
+          categoria: "Power BI",
+          tecnologia: "Power BI / DAX",
+          enlace: "https://productosfinalpython-nt94atk3q-carmen-vargas-projects.vercel.app"
+        }
+      ]
+    }
   },
 };
