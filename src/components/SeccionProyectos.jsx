@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ProyectoCard } from './ProyectoCard'; // Recuerda la C mayúscula en la P y C
+import { ProyectoCard } from './Proyectocard'; // Recuerda la C mayúscula en la P y C
 
 // Recibe la propiedad 'data' que vendrá desde cvData (según el idioma activo)
 export function SeccionProyectos({ data }) {
