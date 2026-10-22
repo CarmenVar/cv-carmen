@@ -102,7 +102,8 @@ function App() {
             data={current.additionalInfo}
           />
      
-        <SeccionProyectos />
+        {/* Sección de Proyectos integrada correctamente dentro del main */}
+          <SeccionProyectos data={current.projectsSection} />
       
           <Footer
             labels={current.labels}
