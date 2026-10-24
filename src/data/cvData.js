@@ -181,7 +181,7 @@ export const cvData = {
           descripcion: "Capacitación práctica en modelado de datos, creación de tableros de control interactivos y métricas clave en DAX.",
           categoria: "Power BI",
           tecnologia: "Power BI / DAX",
-          enlace: "https://productosfinalpython-nt94atk3q-carmen-vargas-projects.vercel.app"
+          enlace: "https://openbadgefactory.com/obv3/credentials/d11cb52812342fead1258df6de1c4a42367200df"
         }
       ]
     }
@@ -367,7 +367,7 @@ export const cvData = {
           descripcion: "Practical training in data modeling, interactive dashboard design, and key performance metrics using DAX.",
           categoria: "Power BI",
           tecnologia: "Power BI / DAX",
-          enlace: "https://productosfinalpython-nt94atk3q-carmen-vargas-projects.vercel.app"
+          enlace: "https://openbadgefactory.com/obv3/credentials/d11cb52812342fead1258df6de1c4a42367200df"
         }
       ]
     }
